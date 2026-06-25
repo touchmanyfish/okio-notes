@@ -35,7 +35,7 @@ byteCount跨过了source中的一些segment。
 
 splite()出来的shared Segment会被插入到尾部。整个过程涉及指针移动+Segment对象创建，这比直接考这坨大数据快。
 
-缺点参考[Segment#split(byteCount)](Segment%23split(byteCount).md)
+缺点参考[Segment#split(byteCount)](https://github.com/touchmanyfish/okio-notes/blob/main/notes/Segment%23split(byteCount).md)
 
 ## compact()碎片整理
 
